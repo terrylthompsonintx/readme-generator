@@ -1,6 +1,6 @@
 
-![AGPL Logo](./utils/agpl.png)
-# bb
+![CCO Logo](./utils/mpl.png)
+# zz
 ### Table of Contents
 1. [Program Description.](#description)
 2. [Program Installation.](#installation)
@@ -12,26 +12,28 @@
 
 ## Program Description:
 <a name="description"></a>
-bb
+zz
 
 ## Installation:
 <a name="installation"></a>
-bb
+zz
 
 ## Program Usage:
 <a name='usage'></a>
-bb
+zz
 
 ## License Type: 
 <a name="license"></a>
-The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there.The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.
-[Wikipedia](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)
+The Mozilla Public License (MPL) is a free and open source software license developed and maintained by the Mozilla Foundation. It is a weak copyleft license, characterized as a middle ground between permissive free software licenses and the GNU General Public License (GPL), that seeks to balance the concerns of proprietary and open source developers. As such, it allows re-licensing. MPL software can thus be converted into a copyleft license such as the GPL, or to a proprietary license.
+[Wikipedia](https://en.wikipedia.org/wiki/Mozilla_Public_License)
 
 ## How to contribute:
 <a name="contribute"></a>
-bb
+zz
 
 ## How to test:
 <a name="test"></a>
-bb
+zz
 
+## Questions
+    <a name="questions"></a>

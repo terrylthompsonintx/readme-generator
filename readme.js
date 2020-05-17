@@ -136,6 +136,8 @@ ${contribute}
 <a name="test"></a>
 ${test}
 
+## Questions
+    <a name="questions"></a>
 `
 }).then(function(thestring){
   fs.writeFile('readme.md',thestring, err =>{if (err) throw err;}) 
