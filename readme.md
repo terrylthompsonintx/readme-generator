@@ -1,6 +1,6 @@
 
-  ![CCO Logo](./utils/mpl.png)
-  # My program
+  ![AGPL Logo](./utils/agpl.png)
+  # Readme Maker
   ### Table of Contents
   1. [Program Description.](#description)
   2. [Program Installation.](#installation)
@@ -12,32 +12,32 @@
   
   ## Program Description:
   <a name="description"></a>
-  Its a program,
+  A program that created professional looking readme files.
   
   ## Installation:
   <a name="installation"></a>
-  Copy this to a directroy.
+  Download folder structure locally.
   
   ## Program Usage:
   <a name='usage'></a>
-  node readme.js
+  Launch with nodemon readme.js.  Follow the prompts.
   
   ## License Type: 
   <a name="license"></a>
-  The Mozilla Public License (MPL) is a free and open source software license developed and maintained by the Mozilla Foundation. It is a weak copyleft license, characterized as a middle ground between permissive free software licenses and the GNU General Public License (GPL), that seeks to balance the concerns of proprietary and open source developers. As such, it allows re-licensing. MPL software can thus be converted into a copyleft license such as the GPL, or to a proprietary license.
-  [Wikipedia](https://en.wikipedia.org/wiki/Mozilla_Public_License)
+  The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there.The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.
+  [Wikipedia](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)
   
   ## How to contribute:
   <a name="contribute"></a>
-  Find a bug and fix it.
+  Use as you see fit. 
   
   ## How to test:
   <a name="test"></a>
-  No test.
+  Testing is for the weak.
   
   ## Questions
   <a name="quests"></a>
-  [Github repositry](https://github.com/terrylthompsonintx/My program)
+  [Github repositry](https://github.com/terrylthompsonintx)
   If you have any questions please [email me](mailto:terrylthompsonintx@gmail.com). 
      
   
