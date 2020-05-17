@@ -23,7 +23,7 @@ email
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the name of your projects github repository?' 
       },
       {
         type: 'input',
@@ -58,7 +58,7 @@ email
       },
       {
         type: 'input',
-        name: 'question',
+        name: 'github',
         message: 'What is your GITHUB name?'
       },
       {
@@ -72,11 +72,12 @@ email
 }
 
 promptUser().then(function(data){
-const {title,description, install,usage,license,contribute,test,question,email}=data;
+const {title,description, install,usage,license,contribute,test,github,email}=data;
 
 let badgeUrl = ' ';
 let licenseText = '';
 let licenseUrl = '';
+let githubUrl = 'https://github.com/' + github + '/' + title;
 
 if (license=='cco'){
   badgeUrl = '![CCO Logo](/utils/cco.png)';
@@ -112,21 +113,36 @@ else if (license == 'AGPL' ){
 return`
 ${badgeUrl}
  # ${title}
+
+ ### Table of Contents
+1. [Program Description.](#description)
+2. [Program Installation.](#installation)
+3. [Program Usage.](#usage)
+4. [Licensing.](#license)
+5. [How to Contribute.](#contribute)
+6. [How to Test.](#test)
+
  ## Program Description:
+ <a name="description"></a>
  ${description}
  ## Installation:
+ <a name="installation"></a>
  ${install}
  ## Program Usage:
+ <a name="usage"></a>
  ${usage}
  ## License Type: 
+ <a name="license"></a>
  ${licenseText}
  ${licenseUrl}
 
  ## How to contribute:
+ <a name="contribute"></a>
  ${contribute}
  ## How to test:
+ <a name="test"></a>
  ${test}
-[### Email me](mailto:${email})
+##[Email me](mailto:${email})
 
 `
 }).then(function(thestring){

@@ -1,19 +1,34 @@
 
-![CCO Logo](/utils/cco.png)
- # A test
+![CCO Logo](./utils/gpl.png)
+ # readme-generator
+
+ ### Table of Contents
+1. [Program Description.](#description)
+2. [Program Installation.](#installation)
+3. [Program Usage.](#usage)
+4. [Licensing.](#license)
+5. [How to Contribute.](#contribute)
+6. [How to Test.](#test)
+
  ## Program Description:
- a test program
+ <a name="description"></a>
+ Generates a readme
  ## Installation:
- install
+ <a name="installation"></a>
+ install it
  ## Program Usage:
- use
+ <a name="usage"></a>
+ Use it
  ## License Type: 
- A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted "work". A CC license is used when an author wants to give other people the right to share, use, and build upon a work that they (the author) have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of a given work) and protects the people who use or redistribute an authors work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work.
- [Wikipedia](https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain)
+ <a name="license"></a>
+ The GNU General Public License (GNU GPL or GPL) is a series of widely used free software licenses that guarantee end users the freedom to run, study, share, and modify the software.[7] The licenses were originally written by Richard Stallman, former head of the Free Software Foundation (FSF), for the GNU Project, and grant the recipients of a computer program the rights of the Free Software Definition.[8] The GPL series are all copyleft licenses, which means that any derivative work must be distributed under the same or equivalent license terms. This is in distinction to permissive software licenses, of which the BSD licenses and the MIT License are widely used less-restrictive examples. GPL was the first copyleft license for general use.
+ [Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
  ## How to contribute:
+ <a name="contribute"></a>
  Contribute
  ## How to test:
- test
-[### Email me](mailto:terrylthompsonintx@gmail.com)
+ <a name="test"></a>
+ test it
+##[Email me](mailto:terrylthompsonintx@gmail.com)
 
