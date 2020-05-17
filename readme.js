@@ -109,7 +109,7 @@ ${badgeUrl}
 4. [Licensing.](#license)
 5. [How to Contribute.](#contribute)
 6. [How to Test.](#test)
-7. [Question?](#questions)
+7. [Question?](#quests)
 
 ## Program Description:
 <a name="description"></a>
@@ -137,7 +137,11 @@ ${contribute}
 ${test}
 
 ## Questions
-    <a name="questions"></a>
+<a name="quests"></a>
+[Github repositry](${githubUrl})
+If you have any questions please email me. 
+[Email me](mailto:${email})    
+
 `
 }).then(function(thestring){
   fs.writeFile('readme.md',thestring, err =>{if (err) throw err;}) 
