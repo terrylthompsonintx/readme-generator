@@ -75,6 +75,20 @@ promptUser().then(function(data){
 const {title,description, install,usage,license,contribute,test,question,email}=data;
 return`
  # ${title}
+ ## Program Description:
+ ${description}
+ ## Installation:
+ ${install}
+ ## Program Usage:
+ ${usage}
+ ## License Type: 
+ ${license}
+ ## How to contribute:
+ ${contribute}
+ ## How to test:
+ ${test}
+[### Email me](mailto:${email})
+
 `
 }).then(function(thestring){
   fs.writeFile('readme.md',thestring, err =>{if (err) throw err;}) 
