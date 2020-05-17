@@ -1,21 +1,9 @@
-// require fs and inquier
-// get inquirer working.  Prompt for 
-/*
-title
-description, 
-instalation instructions, 
-usage information, 
-License,
-contributing, 
-tests, 
-Quetions.
-email 
- */
+
 
  const inquier = require('inquirer');
  const fs = require('fs');
  //const generateMarkdown = require('./utils/generateMarkdown.js');
-//var generateMarkdown  = function(){
+
 
 
  const  promptUser = function() {
@@ -41,7 +29,7 @@ email
         message: 'Please enter usage directions.'
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Select the licensing for the project.',
         choices: ['cco', 'MIT', 'GPL', 'Apache', 'MPL', 'AGPL']
@@ -78,6 +66,7 @@ let badgeUrl = ' ';
 let licenseText = '';
 let licenseUrl = '';
 let githubUrl = 'https://github.com/' + github + '/' + title;
+console.log(license, data);
 
 if (license=='cco'){
   badgeUrl = '![CCO Logo](/utils/cco.png)';
@@ -111,9 +100,38 @@ else if (license == 'AGPL' ){
 }
 
 return`
-    ${badgeUrl}
-    # ${title}
+${badgeUrl}
+# ${title}
+### Table of Contents
+1. [Program Description.](#description)
+2. [Program Installation.](#installation)
+3. [Program Usage.](#usage)
+4. [Licensing.](#license)
+5. [How to Contribute.](#contribute)
+6. [How to Test.](#test)
+7. [Question?](#questions)
 
+## Program Description:
+<a name="description"></a>
+${description}
+
+## Installation:
+<a name="installation"></a>
+${install}
+
+## Program Usage:
+<a name="usage"></a>
+${usage}
+
+`
+}).then(function(thestring){
+  fs.writeFile('readme.md',thestring, err =>{if (err) throw err;}) 
+})
+.catch();
+
+/* 
+ ${badgeUrl}
+    # ${title}
     ### Table of Contents
     1. [Program Description.](#description)
     2. [Program Installation.](#installation)
@@ -126,12 +144,15 @@ return`
     ## Program Description:
     <a name="description"></a>
     ${description}
+    
     ## Installation:
     <a name="installation"></a>
     ${install}
+    
     ## Program Usage:
     <a name="usage"></a>
     ${usage}
+    
     ## License Type: 
     <a name="license"></a>
     ${licenseText}
@@ -140,6 +161,7 @@ return`
     ## How to contribute:
     <a name="contribute"></a>
     ${contribute}
+    
     ## How to test:
     <a name="test"></a>
     ${test}
@@ -149,10 +171,5 @@ return`
     [Github repositry](${githubUrl})
     If you have any questions please email me. 
     [Email me](mailto:${email})
-
-`
-}).then(function(thestring){
-  fs.writeFile('readme.md',thestring, err =>{if (err) throw err;}) 
-})
-.catch();
+*/
 
