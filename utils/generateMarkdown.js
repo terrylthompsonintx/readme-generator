@@ -4,10 +4,10 @@ function generateMarkdown(data) {
   
   const {title,description, install,usage,license,contribute,test,github,email}=data;
 
-  let badgeUrl = ' ';
+  let badgeUrl = '';
   let licenseText = '';
   let licenseUrl = '';
-  let githubUrl = 'https://github.com/' + github + '/' + title;
+  let githubUrl = 'https://github.com/' + github ;
   //console.log(license, data);
   
   if (license=='cco'){
