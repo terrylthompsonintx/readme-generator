@@ -1,15 +1,15 @@
 // function to generate markdown for README
  
 function generateMarkdown(data) {
-  
+  //destructing object into variables
   const {title,description, install,usage,license,contribute,test,github,email}=data;
-
+  // local variables
   let badgeUrl = '';
   let licenseText = '';
   let licenseUrl = '';
   let githubUrl = 'https://github.com/' + github ;
-  //console.log(license, data);
   
+  //Populates local variables according to user selection.
   if (license=='cco'){
     badgeUrl = '![CCO Logo](/utils/cco.png)';
     licenseText = 'A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted "work". A CC license is used when an author wants to give other people the right to share, use, and build upon a work that they (the author) have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of a given work) and protects the people who use or redistribute an authors work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work.';
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
     licenseText = 'The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there.The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers.';
     licenseUrl = '[Wikipedia](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)';
   }
-  
+  //Returns string for readme file.
   return`
   ${badgeUrl}
   # ${title}

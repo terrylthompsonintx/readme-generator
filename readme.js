@@ -1,11 +1,13 @@
+// Program prompts the user with a series of questions and constructs a readme.md file from it.
 
-
+ 
+ 
  const inquier = require('inquirer');
  const fs = require('fs');
  const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-
+//Function to prompt user; returns answer object.
  const  promptUser = function() {
    console.log('--------------------');
    console.log('|     WARNING!     |');
@@ -68,6 +70,7 @@
  return(data);
 }
 
+//Launchs program, creates promis, process object, prints to file.
 promptUser().then(function(data){
    let thestring = generateMarkdown(data)
    //console.log(output);
