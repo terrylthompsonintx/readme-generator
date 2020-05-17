@@ -73,6 +73,13 @@ email
 
 promptUser().then(function(data){
 const {title,description, install,usage,license,contribute,test,question,email}=data;
+
+let badgeUrl = ' ';
+switch (license){
+  case 'cco':
+    badgeUrl = '![CCO Logo](./utils/cco.png)';
+    break;
+}
 return`
  # ${title}
  ## Program Description:
@@ -82,7 +89,7 @@ return`
  ## Program Usage:
  ${usage}
  ## License Type: 
- ${license}
+ ${badgeUrl} ${license}
  ## How to contribute:
  ${contribute}
  ## How to test:

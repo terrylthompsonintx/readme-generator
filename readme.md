@@ -1,16 +1,16 @@
 
- # Readme Generator
+ # test
  ## Program Description:
- A program that prompts the usa series of questions and generates a quality readme.md file. 
+ test
  ## Installation:
- node readme.js
+ test
  ## Program Usage:
- Just follow the prompts.
+ test
  ## License Type: 
- cco
+   cco
  ## How to contribute:
- Email me.
+ test
  ## How to test:
- No testing. 
-[### Email me](mailto:terrylthompsonintx@gmail.com)
+ test
+[### Email me](mailto:test)
 
