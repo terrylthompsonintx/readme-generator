@@ -77,7 +77,7 @@ const {title,description, install,usage,license,contribute,test,question,email}=
 let badgeUrl = ' ';
 switch (license){
   case 'cco':
-    badgeUrl = '![CCO Logo](./utils/cco.png)';
+    badgeUrl = '![CCO Logo](/utils/cco.png)';
     break;
 }
 return`
@@ -89,7 +89,7 @@ return`
  ## Program Usage:
  ${usage}
  ## License Type: 
- ${badgeUrl} ${license}
+ ${badgeUrl}
  ## How to contribute:
  ${contribute}
  ## How to test:
