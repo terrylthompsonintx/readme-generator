@@ -148,47 +148,4 @@ If you have any questions please email me.
 })
 .catch();
 
-/* 
- ${badgeUrl}
-    # ${title}
-    ### Table of Contents
-    1. [Program Description.](#description)
-    2. [Program Installation.](#installation)
-    3. [Program Usage.](#usage)
-    4. [Licensing.](#license)
-    5. [How to Contribute.](#contribute)
-    6. [How to Test.](#test)
-    7. [Question?](#questions)
-
-    ## Program Description:
-    <a name="description"></a>
-    ${description}
-    
-    ## Installation:
-    <a name="installation"></a>
-    ${install}
-    
-    ## Program Usage:
-    <a name="usage"></a>
-    ${usage}
-    
-    ## License Type: 
-    <a name="license"></a>
-    ${licenseText}
-    ${licenseUrl}
-
-    ## How to contribute:
-    <a name="contribute"></a>
-    ${contribute}
-    
-    ## How to test:
-    <a name="test"></a>
-    ${test}
-
-    ## Questions
-    <a name="questions"></a>
-    [Github repositry](${githubUrl})
-    If you have any questions please email me. 
-    [Email me](mailto:${email})
-*/
 
