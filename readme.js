@@ -120,8 +120,21 @@ ${description}
 ${install}
 
 ## Program Usage:
-<a name="usage"></a>
+<a name='usage'></a>
 ${usage}
+
+## License Type: 
+<a name="license"></a>
+${licenseText}
+${licenseUrl}
+
+## How to contribute:
+<a name="contribute"></a>
+${contribute}
+
+## How to test:
+<a name="test"></a>
+${test}
 
 `
 }).then(function(thestring){
