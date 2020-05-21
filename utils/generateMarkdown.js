@@ -45,13 +45,13 @@ function generateMarkdown(data) {
   ${badgeUrl}
   # ${title}
   ### Table of Contents
-  1. [Program Description.](#description)
+  1. [Program Description.](#program-description)
   2. [Program Installation.](#installation)
-  3. [Program Usage.](#usage)
-  4. [Licensing.](#license)
-  5. [How to Contribute.](#contribute)
-  6. [How to Test.](#test)
-  7. [Question?](#quests)
+  3. [Program Usage.](#program-usage)
+  4. [Licensing.](#license-type)
+  5. [How to Contribute.](#how-to-contribute)
+  6. [How to Test.](#how-to-test)
+  7. [Question?](#questions)
   
   ## Program Description:
   ${description}
@@ -73,7 +73,7 @@ function generateMarkdown(data) {
   ${test}
   
   ## Questions
-  [Github repositry](${githubUrl})
+  [Github repository](${githubUrl})
   If you have any questions please [email me](mailto:${email}). 
      
   `
