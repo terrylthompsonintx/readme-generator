@@ -1,6 +1,6 @@
 
   ![CCO Logo](./utils/apache.png)
-  # Readme Maker
+  # a project
   ### Table of Contents
   1. [Program Description.](#description)
   2. [Program Installation.](#installation)
@@ -12,15 +12,15 @@
   
   ## Program Description:
   <a name="description"></a>
-  A program to create professional readme files.
+  the project
   
   ## Installation:
   <a name="installation"></a>
-  Copy the folder structure locally. 
+  install
   
   ## Program Usage:
   <a name='usage'></a>
-  Launch with node or nodemon readme.js.
+  dd
   
   ## License Type: 
   <a name="license"></a>
@@ -29,16 +29,16 @@
   
   ## How to contribute:
   <a name="contribute"></a>
-  Email me with suggestions or distribute yourself. 
+  contribute
   
   ## How to test:
   <a name="test"></a>
-  No tests
+  test
   
   ## Questions
   <a name="quests"></a>
-  [Github repositry](https://github.com/terrylthompsonintx)
-  If you have any questions please [email me](mailto:terrylthompsonintx@gmail.com). 
+  [Github repositry](https://github.com/jj)
+  If you have any questions please [email me](mailto:dd). 
      
   
   
