@@ -1,6 +1,6 @@
 
-  ![CCO Logo](./utils/apache.png)
-  # a project
+  ![CCO Logo](./assets/images/mit.png)
+  # Readme Generator
   ### Table of Contents
   1. [Program Description.](#description)
   2. [Program Installation.](#installation)
@@ -11,34 +11,26 @@
   7. [Question?](#quests)
   
   ## Program Description:
-  <a name="description"></a>
-  the project
+  A professional readme generator,
   
   ## Installation:
-  <a name="installation"></a>
-  install
+  Copy the folder structure locally.
   
   ## Program Usage:
-  <a name='usage'></a>
-  dd
+  Run nope readme.js from bash or cmd. 
   
   ## License Type: 
-  <a name="license"></a>
-  The Apache License is a permissive free software license written by the Apache Software Foundation (ASF).[5] It allows users to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license, without concern for royalties. The ASF and its projects release their software products under the Apache License. The license is also used by many non-ASF projects.
-  [Wikipedia](https://en.wikipedia.org/wiki/Apache_License)
+  The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
+  [Wikipedia](https://en.wikipedia.org/wiki/MIT_License)
   
   ## How to contribute:
-  <a name="contribute"></a>
-  contribute
+  If you find an issue email me. 
   
   ## How to test:
-  <a name="test"></a>
-  test
+  No tests.
   
   ## Questions
-  <a name="quests"></a>
-  [Github repositry](https://github.com/jj)
-  If you have any questions please [email me](mailto:dd). 
+  [Github repositry](https://github.com/terrylthompsonintx)
+  If you have any questions please [email me](mailto:terrylthompsonintx@gmail.com). 
      
-  
   
